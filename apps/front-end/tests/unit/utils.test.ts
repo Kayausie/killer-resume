@@ -35,7 +35,6 @@ describe('toTitleCase', () => {
     const result = toTitleCase(input);
     expect(result).toBe('  Hello   World  ');
   });
-
   // Test with non-alphabetical characters
   it('should not affect non-alphabetical characters', () => {
     const input = 'hello-world';
